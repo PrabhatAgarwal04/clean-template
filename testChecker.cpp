@@ -1,5 +1,4 @@
 #include "vehicleInventory.h"
-#inlude "vehileInventory.cpp"
 #include <gtest/gtest.h>
 
 TEST(vehicleTest, when_a_vehicle_detail_is_passed) {
