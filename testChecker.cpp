@@ -1,14 +1,11 @@
-#include "paramchecker.h"
+#include "vehicleInventory.h"
+#inlude "vehileInventory.cpp"
 #include <gtest/gtest.h>
 
 TEST(vehicleTest, when_a_vehicle_detail_is_passed) {
-
-Struct{
-id;
-temp;  
-}vehicle;
-vehicle= fetch_Vehicle_Measurement(id,temp)
-ASSERT_EQ(store_vehicle_data(vehicle));
+    telematics vehicle_data = {230,motor_temp,30}
+inventory sto = store(vehicle_data)
+ASSERT_EQ(sto.temp,30);
 }
 
 
