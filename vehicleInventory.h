@@ -2,8 +2,7 @@ enum measure{
 battery_pc,
 battery_temp,
 motor_temp
-
-}
+};
 
 struct telematics{
 int vehicle_id;
