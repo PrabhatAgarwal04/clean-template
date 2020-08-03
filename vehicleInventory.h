@@ -11,7 +11,7 @@ measure type;
 float measurement;
 };
 
-struct Inventory {
+struct inventory {
 int vehicle_id;
 float battry_pc;
 float battery_temp;
