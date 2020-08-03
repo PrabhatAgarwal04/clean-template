@@ -5,7 +5,7 @@
 TEST(vehicleTest, when_a_vehicle_detail_is_passed) {
     telematics vehicle_data = {230,motor_temp,30};
 inventory sto = store(vehicle_data);
-ASSERT_EQ(sto.temp,30);
+ASSERT_EQ(sto.battery_temp,30);
 }
 
 
